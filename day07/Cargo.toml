@@ -1,0 +1,18 @@
+[package]
+name = "day07"
+version = "0.1.0"
+authors = ["Alexander Hill <ahill@breadpudding.dev>"]
+edition = "2021"
+license = "MIT"
+
+[dependencies]
+either = "1.8.0"
+nom = "7.1.1"
+
+[[bin]]
+name = "part1"
+path = "src/part1.rs"
+
+[[bin]]
+name = "part2"
+path = "src/part2.rs"
